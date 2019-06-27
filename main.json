@@ -1,5 +1,4 @@
-{//start project
-"$jason":{
+{"$jason":{
 	"head":{
 		"title":"Test App",
 		"actions":{
@@ -7,14 +6,14 @@
 				"type": "$reload"
 			}
 		}
-	},//end head
+	},
 	"body":{
 		"style":{},
 		"sections":{
 			"items":{
-				"type":"vertical",//Orientation of the phone screen
-				"style":{},//styles of the page
-				"components":[//start content of the page, list of items
+				"type":"vertical",
+				"style":{},
+				"components":[
 					{
 					"type": "label",
 					"style":{
@@ -26,15 +25,20 @@
 						"url":"https://www.google.com",
 						"fresh":"false"
 						}
-					},//end link to google
+					},
 					{
 						"type":"label",
 						"text":"Wow, you got an app running? Good Work!"
 					},
-				]//end body content
+				]
 			}
 
 		}
 	}
 
-}//end main
+}
+
+
+
+
+
