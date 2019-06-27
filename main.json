@@ -23,13 +23,10 @@
 					"text":"Click here to Visit Google!",
 					"href":{
 						"url":"https://www.google.com",
-						"fresh":"false"
+						"view":"web",
+						"fresh":"true"
 						}
-					},
-					{
-						"type":"label",
-						"text":"Wow, you got an app running? Good Work!"
-					},
+					}
 				]
 			}
 
