@@ -9,10 +9,10 @@
            }
        },
        "background": [{
-       		"type":"html",
-       		"url":"https://www.google.com",
+       		"type": "html",
+       		"url": "https://www.google.com",
        		"action":{
-       			"trigger":"navigate"
+       			"trigger": "navigate"
        		}
        }],
        "body": {
@@ -25,7 +25,7 @@
                        "padding": "20"
                    },
                    "href": {
-                       "url": "https://www.google.com",
+                       "url": "https://axaustrial.sharepoint.com/sites/bddintranetportal/",
                        "view": "web",
                        "fresh": false
                    },
