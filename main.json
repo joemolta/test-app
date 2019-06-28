@@ -8,6 +8,13 @@
                }
            }
        },
+       "background": [{
+       		"type":"html",
+       		"url":"https://www.google.com",
+       		"action":{
+       			"trigger":"navigate"
+       		}
+       }],
        "body": {
            
            "sections": [{
