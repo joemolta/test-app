@@ -1,0 +1,19 @@
+{
+   "$jason": {
+       "head": {
+           "title": "Test App",
+           "actions": {
+               "$foreground": {
+                   "type": "$reload"
+               }
+           }
+       },
+       "background": [{
+       		"type": "html",
+       		"url": "https://www.google.com",
+       		"action":{
+       			"trigger": "navigate"
+       		}
+       }],
+   }
+}
