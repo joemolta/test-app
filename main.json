@@ -14,6 +14,35 @@
        		"action":{
        			"trigger":"navigate"
        		}
-       }]
+       }],
+       "body": {
+           
+           "sections": [{
+               "items": [{
+                   "type": "vertical",
+                   "style": {
+                       "background": "rgba(14,122,254,0.1)",
+                       "padding": "20"
+                   },
+                   "href": {
+                       "url": "https://www.google.com",
+                       "view": "web",
+                       "fresh": false
+                   },
+                   "components": [{
+                       "type": "label",
+                       "text": "Click Here to Visit Google",
+                       "class": "bold",
+                       "style": {
+                           "color": "#0000ff"
+                       }
+                   }]
+               },
+               {
+                   "type": "label",
+                   "text": "Wow, you got an app running? Good Work!"
+               }]
+           }]
+       }
    }
 }
