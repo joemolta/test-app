@@ -5,24 +5,21 @@
            "actions": {
                "$foreground": {
                    "type": "$reload"
-               },
-               "$pull": {
-                   "type": "$reload"
                }
            }
        },
-       "header": [{
+       "header": {
            "type":"label",
            "text": "Test App"
-       }],
+       },
        "body":{
-           "background": [{
+           "background": {
                "type": "html",
                "url": "https://www.google.com/",
                "action":{
                    "trigger": "navigate"
                }
-           }],
+           },
        },
        "footer"{
            "tabs":{
