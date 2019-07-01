@@ -13,12 +13,13 @@
            "text": "Test App"
        },
        "body":{
+           "background": [{
                "type": "html",
-               "url": "https://www.google.com/",
+               "url": "https://www.google.com",
                "action":{
                    "trigger": "navigate"
-               
-           },
+               }
+            }]
        },
        "footer"{
            "tabs":{
