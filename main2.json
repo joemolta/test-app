@@ -1,8 +1,17 @@
 {
    "$jason": {
+       "head": {
+           "title": "Test App",
+           "actions": {
+               "$foreground": {
+                   "type": "$reload"
+               }
+           }
+       },
        "header": {
-           "title": "Test App"
-           },
+           "type":"label"
+           "text": "Test App"
+       },
        "background": [{
        		"type": "html",
        		"url": "https://www.google.com",
