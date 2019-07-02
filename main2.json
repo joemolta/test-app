@@ -9,8 +9,10 @@
            }
        },
        "header": {
-           "type":"label",
-           "text": "Test App"
+          "title": {
+             "type":"label",
+             "text": "Test App"
+          }
        },
        "background": [{
            "type": "html",
@@ -21,16 +23,16 @@
         }],
        "footer":{
            "tabs":{
-               "items":[{
-                   "type":"label",
-                   "text":"A"
-                    },{
-                   "type":"label",
-                   "text":"B"
-                    },{
-                   "type":"label",
-                   "text":"C"
-                   }]
+             "items":[{
+                 "type":"label",
+                 "text":"A"
+                  },{
+                 "type":"label",
+                 "text":"B"
+                  },{
+                 "type":"label",
+                 "text":"C"
+              }]
            }
        }
    }
