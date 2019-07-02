@@ -12,15 +12,13 @@
            "type":"label",
            "text": "Test App"
        },
-       "body":{
-           "background": [{
-               "type": "html",
-               "url": "https://www.google.com",
-               "action":{
-                   "trigger": "navigate"
-               }
-            }]
-       },
+       "background": [{
+           "type": "html",
+           "url": "https://www.google.com",
+           "action":{
+               "trigger": "navigate"
+           }
+        }],
        "footer":{
            "tabs":{
                "items":[{
