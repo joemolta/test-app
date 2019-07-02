@@ -21,16 +21,16 @@
                }
             }]
        },
-       "footer"{
+       "footer":{
            "tabs":{
                "items":[{
-                   "type":"label"
+                   "type":"label",
                    "text":"A"
                     },{
-                   "type":"label"
+                   "type":"label",
                    "text":"B"
                     },{
-                   "type":"label"
+                   "type":"label",
                    "text":"C"
                    }]
            }
