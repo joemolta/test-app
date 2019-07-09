@@ -22,7 +22,7 @@
                     }
                 },
                 "linkcatcher" : {
-                    "type" : "$util.alert",
+                    "type" : "$jason.alert",
                     "options" : {
                         "title" : "Link Clicked",
                         "description" : "Jason {{$jason.url}} clicked"
