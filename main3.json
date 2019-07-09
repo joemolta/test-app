@@ -20,13 +20,6 @@
                                 ]
                             }
                     }
-                },
-                "linkcatcher" : {
-                    "type" : "$util.alert",
-                    "options" : {
-                        "title" : "Link Clicked",
-                        "description" : "Jason {{$jason.url}} clicked"
-                    } 
                 }
             },
             "templates": {
