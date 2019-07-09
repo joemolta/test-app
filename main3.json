@@ -39,7 +39,7 @@
                     },
                     "background": {
                         "type": "html",
-                        "url": "https://google.com",
+                        "url": "https://github.com",
                         "action": {
                             "trigger": "linkcatcher"
                         }
