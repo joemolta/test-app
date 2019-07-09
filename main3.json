@@ -41,7 +41,7 @@
                         "type": "html",
                         "url": "https://github.com",
                         "action": {
-                            "trigger": "visit"
+                            "trigger": "$default"
                         }
                     }
                 }
