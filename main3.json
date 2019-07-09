@@ -22,14 +22,30 @@
             "templates": {
                 "body": {
                     "header": {
-                        "title": "Test App",
+                        "title": "Header",
                         "style": {
                             "background" : "#4976BA"
-                        }
+                        },
+                       "href": {
+                           "url": "https://www.google.com",
+                           "view": "web",
+                           "fresh": false
+                       }
                     },
                     "background": {
                         "type": "html",
                         "url": "https://google.com"
+                    },
+                    "footer": {
+                        "title": "Footer",
+                        "style": {
+                            "background" : "#4976BA"
+                        },
+                       "href": {
+                           "url": "https://www.google.com",
+                           "view": "web",
+                           "fresh": false
+                       }
                     }
                 }
             }
