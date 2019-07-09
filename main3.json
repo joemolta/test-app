@@ -27,6 +27,13 @@
                         "title" : "Link Clicked",
                         "description" : "Jason {{$jason.url}} clicked"
                     } 
+                },
+                "handleURL":{
+                    "type": "$util.banner",
+                    "options":{
+                        "title":"Link Clicked",
+                        "description":"{{$jason.url}}"
+                    }
                 }
             },
             "templates": {
@@ -41,7 +48,7 @@
                         "type": "html",
                         "url": "https://github.com",
                         "action": {
-                            "type": "$default"
+                            "trigger": "handleURL"
                         }
                     }
                 }
