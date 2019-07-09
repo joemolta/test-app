@@ -13,39 +13,36 @@
                                 "items" : [
                                     {
                                         "url" : "https://code.jquery.com/jquery-3.4.1.min.js"
+                                    },
+                                    {
+                                        "url" : "CHANGE_ME_WITH_VALID_URL/fixes.js"
                                     }
                                 ]
                             }
                     }
+                },
+                "linkcatcher" : {
+                    "type" : "$util.alert",
+                    "options" : {
+                        "title" : "Link Clicked",
+                        "description" : "Jason {{$jason.url}} clicked"
+                    } 
                 }
             },
             "templates": {
                 "body": {
                     "header": {
-                        "title": "Header",
+                        "title": "Test",
                         "style": {
-                            "background" : "#4976BA"
-                        },
-                       "href": {
-                           "url": "https://www.google.com",
-                           "view": "web",
-                           "fresh": false
-                       }
+                            "background" : "#F8DC3D"
+                        }
                     },
                     "background": {
                         "type": "html",
-                        "url": "https://google.com"
-                    },
-                    "footer": {
-                        "title": "Footer",
-                        "style": {
-                            "background" : "#4976BA"
-                        },
-                       "href": {
-                           "url": "https://www.google.com",
-                           "view": "web",
-                           "fresh": false
-                       }
+                        "url": "https://google.com",
+                        "action": {
+                            "trigger": "linkcatcher"
+                        }
                     }
                 }
             }
