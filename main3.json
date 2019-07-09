@@ -29,7 +29,7 @@
                     } 
                 },
                 "handleURL":{
-                    "type": "$util.banner",
+                    "type": "$util.url",
                     "options":{
                         "title":"Link Clicked",
                         "description":"{{$jason.url}}"
