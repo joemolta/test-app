@@ -39,7 +39,10 @@
                     },
                     "background": {
                         "type": "html",
-                        "url": "https://github.com"
+                        "url": "https://github.com",
+                        "action": {
+                            "type": "$default"
+                        }
                     }
                 }
             }
