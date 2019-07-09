@@ -48,7 +48,7 @@
                         "type": "html",
                         "url": "https://github.com",
                         "action": {
-                            "trigger": "handleURL"
+                            "type": "$default"
                         }
                     }
                 }
