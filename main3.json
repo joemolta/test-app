@@ -34,14 +34,14 @@
                     "header": {
                         "title": "Test",
                         "style": {
-                            "background" : "#F8DC3D"
+                            "background" : "#4976BA"
                         }
                     },
                     "background": {
                         "type": "html",
                         "url": "https://github.com",
                         "action": {
-                            "trigger": "navigate"
+                            "trigger": "handleUrl"
                         }
                     }
                 }
