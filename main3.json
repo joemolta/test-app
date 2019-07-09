@@ -29,10 +29,7 @@
                     },
                     "background": {
                         "type": "html",
-                        "url": "https://google.com",
-                        "action": {
-                            "trigger": "linkcatcher"
-                        }
+                        "url": "https://google.com"
                     }
                 }
             }
