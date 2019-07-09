@@ -13,9 +13,6 @@
                                 "items" : [
                                     {
                                         "url" : "https://code.jquery.com/jquery-3.4.1.min.js"
-                                    },
-                                    {
-                                        "url" : "CHANGE_ME_WITH_VALID_URL/fixes.js"
                                     }
                                 ]
                             }
@@ -27,7 +24,7 @@
                     "header": {
                         "title": "Test App",
                         "style": {
-                            "background" : "#F8DC3D"
+                            "background" : "#4976BA"
                         }
                     },
                     "background": {
