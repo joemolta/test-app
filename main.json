@@ -31,7 +31,7 @@
                    },
                    "components": [{
                        "type": "label",
-                       "text": "Click Here to Visit Google",
+                       "text": "Click Here to Visit AXA's Intranet!",
                        "class": "bold",
                        "style": {
                            "color": "#0000ff"
@@ -40,7 +40,7 @@
                },
                {
                    "type": "label",
-                   "text": "Wow, you got an app running? Good Work!"
+                   "text": "This is a functioning app"
                }]
            }]
        }
