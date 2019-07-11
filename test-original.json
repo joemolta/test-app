@@ -38,7 +38,7 @@
                        }
                    }]
                },
-               {
+               { 
                    "type": "label",
                    "text": "This is a functioning app"
                }]
