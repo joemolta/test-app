@@ -46,7 +46,7 @@
                     },
                     "background": {
                         "type": "html",
-                        "url": "https://axanorthamerica.sharepoint.com/sites/intranet/pages/Home.aspx",
+                        "url": "https://axaustrial.sharepoint.com/sites/bddintranetportal",
                         "action": {
                             "type": "$default"
                         }
