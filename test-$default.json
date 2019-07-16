@@ -46,7 +46,7 @@
                     },
                     "background": {
                         "type": "html",
-                        "url": "https://employeeservices.dev-hr.axa-equitable.com/edw/#/",
+                        "url": "https://axanorthamerica.sharepoint.com/sites/intranet/pages/Home.aspx",
                         "action": {
                             "type": "$default"
                         }
